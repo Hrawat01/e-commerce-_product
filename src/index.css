@@ -1,0 +1,234 @@
+body{
+  /* background-color:black; */
+  /* color:white; */
+  /* width: 99%; */
+  /* height: 100%; */
+  margin: 0;
+}
+
+
+
+.nav{
+  font-weight: 800;
+  height: 55px;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px 20px;
+ font-size: 17px;
+ background-color: rgb(87, 183, 39);
+}
+.nav div{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer{
+  height: 32px;
+position: fixed;
+bottom: 0;
+background-color: rgb(87, 183, 39) ;
+display: flex;
+width: 99%;
+padding: 10px;
+justify-content: center;
+font-size: xx-large;
+
+}
+
+
+.product{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: xx-large;
+  
+}
+
+
+.parent{
+  color: black;
+
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 10px;
+  gap: 50px;
+margin-bottom: 53px;
+}
+
+img{
+  height: 330px;
+  width: 350px;
+  object-fit: fill;
+}
+
+
+.child{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 600px;
+  width: 400px;
+  align-items: center;
+  background-color:rgb(232, 220, 220);    
+  border-radius: 10px;
+  padding: 15px;
+}
+p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+.category{
+  font-size: 8vh;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  color: rgb(169, 169, 146);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.singleData{
+  display: flex;
+  flex-direction: row;
+  gap: 2vh;
+}
+
+.singleImage{
+  height: 51vh;
+  width: 60vh;
+  margin: 70px;
+}
+
+.content{
+  height:60vh;
+  width: 80vh;
+  font-size: 3vh;
+  font-weight: 700;
+  /* background-color:red; */
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.description{
+  font-size: 80%;
+  color: rgb(96, 96, 94);
+  font-weight: 800;
+}
+.price{
+  color:green;
+  font-size: 3vh;
+}
+.cart{
+  height: auto;
+  color: rgb(137, 127, 14);
+}
+
+
+button{
+  position: relative;
+  background: rgb(115, 129, 220);
+  height: 30px;
+  width: 100px;
+  margin: 10px;
+  border-radius:20px;
+  font-size: 20px;
+  font-weight: 600;
+  
+}
+
+button:active{
+  transform: scale(1.2);
+}
+
+.light{
+  color: rgb(0, 0, 0);
+  background: white;
+}
+.dark{
+  height: 100%;
+  color: white;
+  background: rgb(20, 4, 4);
+}
+.modes{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  right: 20px;
+  margin: 10px;
+}
+
+.cart2{
+  font-size: 30px;
+}
+.cart-num{
+  color:rgb(53, 27, 27);
+  border-radius:6px;
+position: absolute;
+top: -8px;
+right: 0;
+padding: 8px;
+font-weight: 900;
+font-size: 2.5vh;
+
+}
+
+
+
+
+.CartChild{
+  background-color: rgb(232, 220, 220);
+  color: rgb(28, 8, 8);
+  height: 20vh;
+  width: auto;
+margin: 20px;
+border-radius:10px;
+padding: 19px;
+font-size: 25px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+.CartChild img{
+  height: 100%;
+  width: 10%;
+}
+.about{
+  height: 80vh;
+  background-color: black;
+}
+
+
+.star{
+  width: 33%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 25px;
+  /* color:gold; */
+}
+.one{
+color:gold;
+}
+.two{
+color:gold;
+}
+.three{
+color:gold;
+}
+.four{
+color:gold;
+}
+.five{
+color:gold;
+}
